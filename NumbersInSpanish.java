@@ -34,7 +34,7 @@ public class NumbersInSpanish {
             case 5:
                 System.out.println("cinco");
             default:
-                System.out.println("Moron passed in a number that does not work!");
+                System.out.println("Sorry I do not know that!");
         }
     }
 }
