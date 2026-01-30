@@ -26,10 +26,10 @@ public class AverageSquares {
         int sumSquares = 0;
         int cur_num = startNum;
 
-        while (cur_num <= endNum) {
+        do {
             sumSquares+=cur_num*cur_num;
             cur_num++;
-        }
+        } while (cur_num <= endNum);
 
         double averageSquares = (double) sumSquares / (double) (endNum-startNum+1);
 
